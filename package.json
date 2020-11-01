@@ -1,0 +1,17 @@
+{
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1",
+    "mongodb-memory-server": "^6.9.2",
+    "supertest": "^6.0.0"
+  },
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "NODE_ENV=test jest"
+  }
+}
