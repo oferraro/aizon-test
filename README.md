@@ -8,4 +8,11 @@ Copy .env_example to .env
 ### Run dev server
 `npm run dev`
 
+### With Postman
+- Create Service (Post)
+`http://localhost:3000/solutions`
 
+    params: { "name": "Any name" }
+
+- Delete Service (Delete)
+`http://localhost:3000/solutions/serviceId`
